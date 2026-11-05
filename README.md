@@ -1,15 +1,15 @@
 # ZGU
 
-ZGU provides two Zotero citation styles for **Gaya UKM**, the thesis style used
-by Universiti Kebangsaan Malaysia.
+ZGU provides two CSL citation styles for **Gaya UKM**, the thesis style used by
+Universiti Kebangsaan Malaysia.
 
 > **Disclaimer:** ZGU is an unofficial project. It is independently adapted from
 > the official Gaya UKM guides, but it is not published, approved, or endorsed by
 > Universiti Kebangsaan Malaysia. Always check your final document against the
 > official guide and your faculty's current requirements.
 
-Use this repository if you want Zotero to format your citations and reference
-list in roughly the same way as the official Gaya UKM guide.
+Use these styles with Zotero or Mendeley to format citations and references
+according to the supported rules in the official Gaya UKM guide.
 
 ## Which Style Do I Need?
 
@@ -37,6 +37,32 @@ versions.
 This repository contains the citation styles, not the Zotero word-processor
 plugin. In WPS, use the Zotero-WPS connector you already installed. If ZGU does
 not appear there, first confirm that it appears in Zotero's style list.
+
+## Zotero, Mendeley, and EndNote
+
+ZGU files are standard CSL 1.0 styles.
+
+| Software | Compatibility | How to use it |
+|---|---|---|
+| Zotero | Native | Add the `.csl` file under **Settings > Cite > Styles** |
+| Mendeley Cite | Custom style | Choose **Add a custom style** and paste the raw CSL URL |
+| EndNote | Not supported directly | EndNote requires a separate `.ens` output style |
+
+ZGU is not registered in the public CSL style repository used by Zotero and
+Mendeley, so neither product lists it in the built-in style search. Add the
+downloaded file in Zotero, or use the custom-style URL option in Mendeley Cite:
+
+```text
+English:
+https://raw.githubusercontent.com/hazlamshamin/ZGU/main/styles/gaya-ukm-english.csl
+
+Bahasa Melayu:
+https://raw.githubusercontent.com/hazlamshamin/ZGU/main/styles/gaya-ukm-malay.csl
+```
+
+EndNote cannot import a `.csl` file directly. It uses the proprietary `.ens`
+format, so no EndNote style is included. Exporting references from Zotero or
+Mendeley into EndNote does not convert the citation style.
 
 ## Basic Workflow
 
@@ -147,6 +173,20 @@ The styles cover the main source types used in Gaya UKM Chapters IV and V:
 This is a focused Gaya UKM style, not a complete implementation of every example
 in the guide.
 
+## What Is Not Included
+
+- No repository-level license or `LICENSE` file.
+- No Zotero add-on, Mendeley add-on, or EndNote style.
+- No Word, WPS, LibreOffice, or LaTeX thesis template.
+- No cover page, margin setup, font setup, or full thesis page layout.
+- No footnotes, short-note forms, Al-Quran citations, Hadith citations, or Arabic/Jawi ordering.
+- No automatic conversion of institution names to acronyms.
+- No automatic title translation or automatic title-case correction.
+- No automatic cultural-name parsing for Malay, Arabic, Chinese, Indonesian, or Sabah/Sarawak names.
+- No dedicated support for legal cases, films, videos, datasets, interviews, personal communications, meeting papers, compilers, coordinators, monographs, or translations.
+- No automatic enforcement of the guide's exact `12.5 mm` hanging-indent width inside every word processor.
+- No bundled copies of the UKM PDF guides or the GayaUKM LaTeX template.
+
 ## Comparison With Other UKM Styles
 
 The table compares the main-source behaviour tested against the official guides.
@@ -184,6 +224,20 @@ On the current source-backed fixtures, ZGU matches **13/13 citation examples and
 gaps in the main source types shown above. ZGU is still not a full implementation
 of every source type or formatting rule in the official guides.
 
+## Common Problems
+
+- **The wrong name appears.** Check the author's **Last Name** and **First Name**
+  fields in Zotero, then refresh the citation.
+- **A DBP or DOSH citation does not shorten automatically.** Enter the shorter
+  institution name yourself. ZGU cannot infer an acronym from a full name.
+- **The title is in the wrong position.** For an authorless A, An, or The title,
+  fill in Zotero's **Short Title** field.
+- **Italic text disappeared from a title.** Check whether the italics are present
+  in Zotero's title field. ZGU preserves imported italics but cannot reconstruct
+  formatting that was removed before import.
+- **The indentation is wrong.** Change the **Bibliography** paragraph style using
+  the steps above.
+
 ## For Developers
 
 Pandoc with citeproc support is required. The test suite is currently verified
@@ -211,34 +265,6 @@ uv run python tests/latex/check_latex.py -v
 
 - [UKM Gaya UKM postgraduate page](https://www.ukm.my/akademik/pelajar-pascasiswazah/)
 - [GayaUKM LaTeX repository](https://github.com/mohdhairimohdzaman/GayaUKM)
-
-## What Is Not Included
-
-- No repository-level license or `LICENSE` file.
-- No Zotero add-on or plugin. This repository contains CSL styles only.
-- No Word, WPS, LibreOffice, or LaTeX thesis template.
-- No cover page, margin setup, font setup, or full thesis page layout.
-- No footnotes, short-note forms, Al-Quran citations, Hadith citations, or Arabic/Jawi ordering.
-- No automatic conversion of institution names to acronyms.
-- No automatic title translation or automatic title-case correction.
-- No automatic cultural-name parsing for Malay, Arabic, Chinese, Indonesian, or Sabah/Sarawak names.
-- No dedicated support for legal cases, films, videos, datasets, interviews, personal communications, meeting papers, compilers, coordinators, monographs, or translations.
-- No automatic enforcement of the guide's exact `12.5 mm` hanging-indent width inside every word processor.
-- No bundled copies of the UKM PDF guides or the GayaUKM LaTeX template.
-
-## Common Problems
-
-- **The wrong name appears.** Check the author's **Last Name** and **First Name**
-  fields in Zotero, then refresh the citation.
-- **A DBP or DOSH citation does not shorten automatically.** Enter the shorter
-  institution name yourself. ZGU cannot infer an acronym from a full name.
-- **The title is in the wrong position.** For an authorless A, An, or The title,
-  fill in Zotero's **Short Title** field.
-- **Italic text disappeared from a title.** Check whether the italics are present
-  in Zotero's title field. ZGU preserves imported italics but cannot reconstruct
-  formatting that was removed before import.
-- **The indentation is wrong.** Change the **Bibliography** paragraph style using
-  the steps above.
 
 ## Issues
 
