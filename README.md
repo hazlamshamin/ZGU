@@ -147,6 +147,43 @@ The styles cover the main source types used in Gaya UKM Chapters IV and V:
 This is a focused Gaya UKM style, not a complete implementation of every example
 in the guide.
 
+## Comparison With Other UKM Styles
+
+The table compares the main-source behaviour tested against the official guides.
+
+- **ZGU**: the styles in this repository.
+- **Canonical**: [Universiti Kebangsaan Malaysia (Malay)](https://www.zotero.org/styles/universiti-kebangsaan-malaysia).
+- **Mendeley Malay**: [GayaUKM-Melayu-MazlehaMaskin](http://csl.mendeley.com/styles/66537561/GayaUKM-MelayuMazleha).
+- **Mendeley English**: [UKM (English) - Mazleha Maskin](https://csl.mendeley.com/styles/66537561/universiti-kebangsaan-malaysia-mazleha-Eng).
+
+`✓` means the tested examples match the guide. `✗` means at least one tested
+example fails. `—` means the style is not intended for that language.
+
+| Tested behaviour | ZGU | Canonical | Mendeley Malay | Mendeley English |
+|---|---|---|---|---|
+| English three-author rule | ✓ | — | — | ✓ |
+| Malay two/three-author rule | ✓ | ✓ | ✗ (uses `et al.`) | — |
+| Same-surname authors expanded | ✓ | ✗ (not expanded) | ✗ (initial before surname) | ✗ (not expanded) |
+| Anonymous sources use `Anon.` | ✓ | ✗ | ✗ | ✗ |
+| Page locator uses a colon | ✓ | ✗ (`hlm.` form) | ✗ (no colon) | ✗ (`, p.` form) |
+| Books, edited books, and chapters | ✓ | ✗ (place/publisher reversed) | ✗ (punctuation) | ✓ |
+| Journal articles | ✓ | ✓ | ✓ | ✓ |
+| Magazines and newspapers | ✓ | ✗ (dates/months missing) | ✗ | ✗ |
+| Theses, reports, and manuscripts | ✓ | ✗ | ✗ | ✗ |
+| Legislation and act number | ✓ | ✗ | ✗ | ✗ |
+| Webpages and access dates | ✓ | ✓ | ✗ (punctuation) | ✓ |
+| Software and software manuals | ✓ | ✗ (version missing) | ✗ (version missing) | ✗ (version missing) |
+| Book and container-title italics | ✓ | ✗ (books upright) | ✓ | ✓ |
+| Single-spaced reference list | ✓ | ✗ (double) | ✗ (double) | ✗ (double) |
+| Exact `12.5 mm` hanging indent | ✗ (set `1.25 cm` in Word/WPS) | ✗ | ✗ | ✗ |
+| Narrative `and`/`dan` conjunction | ✗ (type names; **Suppress Author**) | ✗ | ✗ | ✗ |
+| Footnotes, Al-Quran, and Hadith | ✗ (not included) | ✗ | ✗ | ✗ |
+
+On the current source-backed fixtures, ZGU matches **13/13 citation examples and
+16/16 reference examples in both languages**. The other styles have material
+gaps in the main source types shown above. ZGU is still not a full implementation
+of every source type or formatting rule in the official guides.
+
 ## For Developers
 
 Pandoc with citeproc support is required. The test suite is currently verified
