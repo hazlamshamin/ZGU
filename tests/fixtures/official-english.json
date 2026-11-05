@@ -1,0 +1,163 @@
+[
+  {
+    "id": "brown",
+    "type": "book",
+    "author": [{"family": "Brown", "given": "R."}],
+    "issued": {"date-parts": [[2008]]},
+    "title": "Topology: A Geometric Account of General Topology, Homotopy Types and the Fundamental Groupoid",
+    "publisher": "Ellis Horwood Limited",
+    "publisher-place": "Chichester"
+  },
+  {
+    "id": "corcoran",
+    "type": "book",
+    "author": [
+      {"family": "Corcoran", "given": "K."},
+      {"family": "Fischer", "given": "J."}
+    ],
+    "issued": {"date-parts": [[2007]]},
+    "title": "Measures for Clinical Practice: Source Book",
+    "publisher": "The Free Press",
+    "publisher-place": "New York"
+  },
+  {
+    "id": "journal",
+    "type": "article-journal",
+    "author": [{"family": "Andanastuti Muchtar"}],
+    "issued": {"date-parts": [[2000]]},
+    "title": "Gabungan pelekukan dan pelenturan dalam penjanaan nilai keliatan patah seramik alumina",
+    "container-title": "Journal Institute of Materials Malaysia",
+    "volume": "1",
+    "issue": "2",
+    "page": "51-66"
+  },
+  {
+    "id": "chapter",
+    "type": "chapter",
+    "author": [{"family": "Abdul Latiff Mohamad"}],
+    "editor": [{"family": "Jamaluddin Md. Jahi"}],
+    "issued": {"date-parts": [[2000]]},
+    "title": "Kesan pembangunan sosio-ekonomi ke atas kepelbagaian biologi khususnya spesies tumbuhan endemik di Malaysia",
+    "container-title": "Pengurusan Persekitaran di Malaysia: Isu dan Cabaran",
+    "page": "72-103",
+    "publisher": "Pusat Pengajian Siswazah, Universiti Kebangsaan Malaysia",
+    "publisher-place": "Bangi"
+  },
+  {
+    "id": "thesis",
+    "type": "thesis",
+    "author": [{"family": "Howie", "given": "J."}],
+    "issued": {"date-parts": [[2007]]},
+    "title": "Topics in the theory of groupoids",
+    "genre": "Ph.D. Thesis",
+    "publisher": "University of London"
+  },
+  {
+    "id": "webpage",
+    "type": "webpage",
+    "author": [{"family": "Crane", "given": "N."}],
+    "issued": {"date-parts": [[2007]]},
+    "title": "Electronic sources: MLA style of citation",
+    "URL": "http://www.uvm.edu/ncrane/estyle/mla.html",
+    "accessed": {"date-parts": [[2007, 7, 31]]}
+  },
+  {
+    "id": "edited",
+    "type": "book",
+    "editor": [
+      {"family": "Jamaluddin Md. Jahi"},
+      {"family": "Kamaruzzaman Sopian"},
+      {"family": "Mohd Jailani Mohd Nor"},
+      {"family": "Abdul Hadi Harman Shah"}
+    ],
+    "issued": {"date-parts": [[2011]]},
+    "title": "Environmental Management 2000",
+    "publisher": "Centre for Graduate Studies, Universiti Kebangsaan Malaysia",
+    "publisher-place": "Bangi"
+  },
+  {
+    "id": "edition",
+    "type": "book",
+    "issued": {"date-parts": [[2006]]},
+    "title": "The Encyclopaedia of Islam",
+    "title-short": "Encyclopaedia of Islam",
+    "edition": "2",
+    "publisher": "E.J. Brill",
+    "publisher-place": "Leiden"
+  },
+  {
+    "id": "proceedings",
+    "type": "paper-conference",
+    "author": [
+      {"family": "Rahmat", "given": "R.A."},
+      {"family": "Jumari", "given": "K."},
+      {"family": "Hassan", "given": "A."},
+      {"family": "Basri", "given": "H."}
+    ],
+    "issued": {"date-parts": [[2002]]},
+    "title": "Intelligent traffic control with image processing sensor",
+    "container-title": "Proceedings of the 2nd World Engineering Congress",
+    "page": "339-344"
+  },
+  {
+    "id": "newspaper",
+    "type": "article-newspaper",
+    "author": [{"family": "Gunasegaran", "given": "P."}],
+    "issued": {"date-parts": [[2006, 2, 21]]},
+    "title": "Overworked students: give the kids chance to relax",
+    "container-title": "New Straits Times",
+    "page": "20"
+  },
+  {
+    "id": "manuscript",
+    "type": "manuscript",
+    "author": [{"family": "Hamzah Fansuri"}],
+    "title": "Sharab al-cAshiqin",
+    "archive": "MSS. Cod. Or. 7291 (11)",
+    "publisher": "University Leiden Library"
+  },
+  {
+    "id": "legislation",
+    "type": "legislation",
+    "author": [{"family": "Malaysia"}],
+    "issued": {"date-parts": [[1990]]},
+    "title": "Bernama Act 1967 (Revised 1990)",
+    "number": "Act 449"
+  },
+  {
+    "id": "report",
+    "type": "report",
+    "author": [{"family": "Hafriza Burhanudeen"}],
+    "issued": {"date-parts": [[2003]]},
+    "title": "A comparative study of linguistic strategies used by counsels representing Malaysia and the Republic of Indonesia in the case concerning sovereignty over the islands of Sipadan and Ligitan",
+    "genre": "Technical report",
+    "number": "UKM SK/008/2003"
+  },
+  {
+    "id": "magazine",
+    "type": "article-magazine",
+    "author": [{"family": "Fergus Bordewich"}],
+    "issued": {"date-parts": [[2005, 9]]},
+    "title": "Top of the class",
+    "container-title": "Reader's Digest",
+    "page": "58-64"
+  },
+  {
+    "id": "software-manual",
+    "type": "software",
+    "author": [{"family": "MSC.Nastran"}],
+    "issued": {"date-parts": [[2008]]},
+    "title": "Quick Reference Guide",
+    "publisher": "MSC. Software Corporation",
+    "publisher-place": "Santa Ana"
+  },
+  {
+    "id": "software",
+    "type": "software",
+    "issued": {"date-parts": [[2005]]},
+    "title": "MATLAB",
+    "version": "7.1",
+    "publisher": "Math Works Inc.",
+    "publisher-place": "Massachusetts"
+  }
+]

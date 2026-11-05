@@ -1,0 +1,161 @@
+[
+  {
+    "id": "arena",
+    "type": "book",
+    "author": [{"family": "Arena Wati"}],
+    "issued": {"date-parts": [[1991]]},
+    "title": "Memoir Arena Wati: Enda Gulingku",
+    "publisher": "Penerbit Universiti Kebangsaan Malaysia",
+    "publisher-place": "Bangi"
+  },
+  {
+    "id": "journal",
+    "type": "article-journal",
+    "author": [{"family": "Andanastuti Muchtar"}],
+    "issued": {"date-parts": [[2000]]},
+    "title": "Gabungan pelekukan dan pelenturan dalam penjanaan nilai keliatan patah seramik alumina",
+    "container-title": "Journal Institute of Materials Malaysia",
+    "volume": "1",
+    "issue": "2",
+    "page": "51-66"
+  },
+  {
+    "id": "chapter",
+    "type": "chapter",
+    "author": [{"family": "Abdul Latiff Mohamad"}],
+    "editor": [{"family": "Jamaluddin Md. Jahi"}],
+    "issued": {"date-parts": [[2000]]},
+    "title": "Kesan pembangunan sosio-ekonomi ke atas kepelbagaian biologi khususnya spesies tumbuhan endemik di Malaysia",
+    "container-title": "Pengurusan Persekitaran di Malaysia: Isu dan Cabaran",
+    "page": "72-103",
+    "publisher": "Pusat Pengajian Siswazah, Universiti Kebangsaan Malaysia",
+    "publisher-place": "Bangi"
+  },
+  {
+    "id": "thesis",
+    "type": "thesis",
+    "author": [{"family": "Alfitra Salam"}],
+    "issued": {"date-parts": [[1999]]},
+    "title": "Kerjasama dan potensi konflik dalam hubungan Indonesia-Malaysia 1966-1991",
+    "genre": "Tesis Dr. Fal",
+    "publisher": "Jabatan Sejarah, Universiti Kebangsaan Malaysia"
+  },
+  {
+    "id": "webpage",
+    "type": "webpage",
+    "author": [{"family": "Crane", "given": "N."}],
+    "issued": {"date-parts": [[1997]]},
+    "title": "Electronic sources: MLA style of citation",
+    "URL": "http://www.uvm.edu/~ncrane/estyle/mla.html",
+    "accessed": {"date-parts": [[2000, 7, 31]]}
+  },
+  {
+    "id": "edited",
+    "type": "book",
+    "editor": [
+      {"family": "Jamaluddin Md. Jahi"},
+      {"family": "Kamaruzzaman Sopian"},
+      {"family": "Mohd Jailani Mohd Nor"},
+      {"family": "Abdul Hadi Harman Shah"}
+    ],
+    "issued": {"date-parts": [[2001]]},
+    "title": "Environmental Management 2000",
+    "publisher": "Centre for Graduate Studies, Universiti Kebangsaan Malaysia",
+    "publisher-place": "Bangi"
+  },
+  {
+    "id": "edition",
+    "type": "book",
+    "author": [{"family": "Shaharir Mohamad Zain"}],
+    "issued": {"date-parts": [[1990]]},
+    "title": "Beberapa Masalah Permulaan dalam Sains Hayat dan Perubatan",
+    "edition": "2",
+    "publisher": "Penerbit Universiti Kebangsaan Malaysia",
+    "publisher-place": "Bangi"
+  },
+  {
+    "id": "kamus",
+    "type": "book",
+    "issued": {"date-parts": [[1991]]},
+    "title": "Kamus Dewan",
+    "edition": "Edisi baru",
+    "publisher": "Dewan Bahasa dan Pustaka",
+    "publisher-place": "Kuala Lumpur"
+  },
+  {
+    "id": "proceedings",
+    "type": "paper-conference",
+    "author": [
+      {"family": "Rahmat", "given": "R.A."},
+      {"family": "Jumari", "given": "K."},
+      {"family": "Hassan", "given": "A."},
+      {"family": "Basri", "given": "H."}
+    ],
+    "issued": {"date-parts": [[2002]]},
+    "title": "Intelligent traffic control with image processing sensor",
+    "container-title": "Proceedings of the 2nd World Engineering Congress",
+    "page": "339-344"
+  },
+  {
+    "id": "manuscript",
+    "type": "manuscript",
+    "author": [{"family": "Hamzah Fansuri"}],
+    "title": "Sharab al-c Ashiqin",
+    "archive": "MSS. Cod. Or. 7291(11)",
+    "publisher": "Perpustakaan University Leiden"
+  },
+  {
+    "id": "legislation",
+    "type": "legislation",
+    "author": [{"family": "Malaysia"}],
+    "issued": {"date-parts": [[1990]]},
+    "title": "Bernama Act 1967 (Revised 1990)",
+    "number": "Act 449"
+  },
+  {
+    "id": "report",
+    "type": "report",
+    "author": [{"family": "Mohd. Kidin Shaharan"}],
+    "issued": {"date-parts": [[1991]]},
+    "title": "Kegunaan submartingale dalam masalah storan",
+    "genre": "Laporan Teknik",
+    "number": "5",
+    "publisher": "Pusat Pengajian Kuantitatif, Universiti Kebangsaan Malaysia"
+  },
+  {
+    "id": "magazine",
+    "type": "article-magazine",
+    "author": [{"family": "Ismail Hamid"}],
+    "issued": {"date-parts": [[1990, 5]]},
+    "title": "Sastera kitab",
+    "container-title": "Dewan Sastera",
+    "page": "79-83"
+  },
+  {
+    "id": "newspaper",
+    "type": "article-newspaper",
+    "author": [{"family": "Hashnan Abdullah"}],
+    "issued": {"date-parts": [[2006, 2, 2]]},
+    "title": "Mangsa tragedy asrama runtuh selamat pulang",
+    "container-title": "Utusan Malaysia",
+    "page": "3"
+  },
+  {
+    "id": "software-manual",
+    "type": "software",
+    "author": [{"family": "MSC.Nastran"}],
+    "issued": {"date-parts": [[2003]]},
+    "title": "Quick Reference Guide",
+    "publisher": "MSC. Software Corporation",
+    "publisher-place": "Santa Ana"
+  },
+  {
+    "id": "software",
+    "type": "software",
+    "issued": {"date-parts": [[2005]]},
+    "title": "MATLAB",
+    "version": "7.1",
+    "publisher": "Math Works Inc.",
+    "publisher-place": "Massachusetts"
+  }
+]

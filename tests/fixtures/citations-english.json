@@ -1,0 +1,159 @@
+[
+  {
+    "id": "hawkings",
+    "type": "article-journal",
+    "author": [{"family": "Hawkings"}],
+    "issued": {"date-parts": [[2012]]},
+    "title": "Citation fixture",
+    "container-title": "Fixture Journal",
+    "volume": "1",
+    "page": "1-1"
+  },
+  {
+    "id": "abdul-razak",
+    "type": "article-journal",
+    "author": [
+      {"family": "Abdul Razak", "given": "A."},
+      {"family": "Abu Osman", "given": "A."}
+    ],
+    "issued": {"date-parts": [[2009]]},
+    "title": "Citation fixture",
+    "container-title": "Fixture Journal",
+    "volume": "1",
+    "page": "1-1"
+  },
+  {
+    "id": "shafaratul",
+    "type": "article-journal",
+    "author": [
+      {"family": "Shafaratul"},
+      {"family": "Second"},
+      {"family": "Third"}
+    ],
+    "issued": {"date-parts": [[2011]]},
+    "title": "Citation fixture",
+    "container-title": "Fixture Journal",
+    "volume": "1",
+    "page": "1-1"
+  },
+  {
+    "id": "rahmat",
+    "type": "paper-conference",
+    "author": [
+      {"family": "Rahmat", "given": "R.A."},
+      {"family": "Jumari", "given": "K."},
+      {"family": "Hassan", "given": "A."},
+      {"family": "Basri", "given": "H."}
+    ],
+    "issued": {"date-parts": [[2002]]},
+    "title": "Citation fixture",
+    "container-title": "Fixture Proceedings",
+    "page": "1-1"
+  },
+  {
+    "id": "anonymous",
+    "type": "book",
+    "issued": {"date-parts": [[2012]]},
+    "title": "Citation fixture",
+    "publisher": "Fixture Press"
+  },
+  {
+    "id": "abdul-samad",
+    "type": "book",
+    "author": [{"family": "Abdul Samad"}],
+    "issued": {"date-parts": [[2011]]},
+    "title": "Citation fixture",
+    "publisher": "Fixture Press"
+  },
+  {
+    "id": "azahan",
+    "type": "book",
+    "author": [{"family": "Azahan"}],
+    "issued": {"date-parts": [[2011]]},
+    "title": "Citation fixture",
+    "publisher": "Fixture Press"
+  },
+  {
+    "id": "jamaluddin-2010",
+    "type": "book",
+    "author": [{"family": "Jamaluddin"}],
+    "issued": {"date-parts": [[2010]]},
+    "title": "Citation fixture",
+    "publisher": "Fixture Press"
+  },
+  {
+    "id": "kadir",
+    "type": "book",
+    "author": [{"family": "Kadir"}],
+    "issued": {"date-parts": [[2012]]},
+    "title": "Citation fixture",
+    "publisher": "Fixture Press"
+  },
+  {
+    "id": "jamaluddin-2007",
+    "type": "book",
+    "author": [{"family": "Jamaluddin"}],
+    "issued": {"date-parts": [[2007]]},
+    "title": "Citation fixture",
+    "publisher": "Fixture Press"
+  },
+  {
+    "id": "jamaluddin-2009",
+    "type": "book",
+    "author": [{"family": "Jamaluddin"}],
+    "issued": {"date-parts": [[2009]]},
+    "title": "Citation fixture",
+    "publisher": "Fixture Press"
+  },
+  {
+    "id": "jamaluddin-2012",
+    "type": "book",
+    "author": [{"family": "Jamaluddin"}],
+    "issued": {"date-parts": [[2012]]},
+    "title": "Citation fixture",
+    "publisher": "Fixture Press"
+  },
+  {
+    "id": "sham-a",
+    "type": "article-journal",
+    "author": [{"family": "Sham", "given": "S."}],
+    "issued": {"date-parts": [[2010]]},
+    "title": "Environment and development",
+    "container-title": "Fixture Journal",
+    "volume": "1",
+    "page": "1-1"
+  },
+  {
+    "id": "sham-b",
+    "type": "article-journal",
+    "author": [{"family": "Sham", "given": "S."}],
+    "issued": {"date-parts": [[2010]]},
+    "title": "Economic development",
+    "container-title": "Fixture Journal",
+    "volume": "2",
+    "page": "1-1"
+  },
+  {
+    "id": "malaysia",
+    "type": "legislation",
+    "author": [{"family": "Malaysia"}],
+    "issued": {"date-parts": [[1990]]},
+    "title": "Bernama Act 1967 (Revised 1990)",
+    "number": "Act 449"
+  },
+  {
+    "id": "institution",
+    "type": "report",
+    "author": [{"family": "International Labour Office"}],
+    "issued": {"date-parts": [[2010]]},
+    "title": "Citation fixture",
+    "publisher": "International Labour Office"
+  },
+  {
+    "id": "matlab",
+    "type": "software",
+    "issued": {"date-parts": [[2008]]},
+    "title": "MATLAB",
+    "publisher": "Math Works Inc."
+  }
+]

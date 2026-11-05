@@ -1,0 +1,54 @@
+\begin{thebibliography}{7}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\selectlanguage}[1]{\relax}
+
+\bibitem[{Brown(2008)}]{brown}
+Brown, R. 2008.
+\newblock \emph{Topology: A Geometric Account of General Topology, Homotopy
+  Types and the Fundamental Groupoid}.
+\newblock Chichester: Ellis Horwood Limited.
+
+\bibitem[{Crane(2007)}]{webpage}
+Crane, N. 2007.
+\newblock Electronic sources: Mla style of citation.
+\newblock \urlprefix\url{http://www.uvm.edu/ncrane/estyle/mla.html}
+  [2007-07-31].
+
+\bibitem[{Hamzah, Mohamed \& Hussain(2004)}]{hamzah}
+Hamzah, N., Mohamed, A. \& Hussain, A. 2004.
+\newblock A new approach to locate the voltage sag source using real current
+  component.
+\newblock \emph{Journal of Electric Power System Research} 72: 113--123.
+
+\bibitem[{Howie(2007)}]{thesis}
+Howie, J. 2007.
+\newblock \emph{Topics in the theory of groupoids}.
+\newblock Tesis doktor falsafah, University of London.
+
+\bibitem[{Mohamad(2000)}]{chapter}
+Mohamad, A.L. 2000.
+\newblock Kesan pembangunan sosio-ekonomi ke atas kepelbagaian biologi
+  khususnya spesies tumbuhan endemik di malaysia.
+\newblock  J.M. Jahi (pnyt.) \emph{Pengurusan Persekitaran di Malaysia: Isu dan
+  Cabaran}, hlm. 72--103. Bangi: Pusat Pengajian Siswazah, Universiti
+  Kebangsaan Malaysia.
+
+\bibitem[{Muchtar(2000)}]{journal}
+Muchtar, A. 2000.
+\newblock Gabungan pelekukan dan pelenturan dalam penjanaan nilai keliatan
+  patah seramik alumina.
+\newblock \emph{Journal Institute of Materials Malaysia} 1(2): 51--66.
+
+\bibitem[{Rahmat et~al.(2002)Rahmat, Jumari, Hassan \& Basri}]{rahmat}
+Rahmat, R., Jumari, K., Hassan, A. \& Basri, H. 2002.
+\newblock Intelligent traffic control with image processing sensor.
+\newblock  \emph{Proceedings of the 2nd World Engineering Congress}, hlm.
+  339--344.
+
+\end{thebibliography}

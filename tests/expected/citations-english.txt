@@ -1,0 +1,25 @@
+One author: (Hawkings 2012).
+
+Two authors: (Abdul Razak & Abu Osman 2009).
+
+Three authors: (Shafaratul et al. 2011).
+
+Four authors: (Rahmat et al. 2002).
+
+No author: (Anon. 2012).
+
+Multiple references: (Abdul Samad 2011; Azahan 2011; Jamaluddin 2010; Kadir 2012).
+
+Multiple years: (Jamaluddin 2007, 2009, 2012).
+
+Same year: (Sham 2010a, 2010b).
+
+Legislation: (Malaysia 1990).
+
+Institution author: (International Labour Office 2010).
+
+Software: (MATLAB 2008).
+
+Narrative: Hawkings (2012).
+
+Page locator: (Hawkings 2012: 42).

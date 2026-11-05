@@ -1,0 +1,12 @@
+{
+  "malay": {
+    "url": "https://www.ukm.my/akademik/wp-content/uploads/2022/12/2015-GayaUKM-BM.pdf",
+    "sha256": "4aa8652487c0b2eac9c08a2e496bcd4055302666086ca8aca2bdff7ca7c5b4ae",
+    "expected": "../expected/malay-official-excerpts.txt"
+  },
+  "english": {
+    "url": "https://www.ukm.my/akademik/wp-content/uploads/2022/12/2015-GayaUKM-BI-Final.pdf",
+    "sha256": "e39ed8564d99a6e40fec0e14be9adee4f1b5294a1d69b1585f94b5026ac583e1",
+    "expected": "../expected/english-official-excerpts.txt"
+  }
+}
